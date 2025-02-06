@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+/* common */
+
+body {
+  font-family: 'Kaisei Opti', serif;
+  background-image: url(../img/26076662.jpg);
+}
+
+.container {
+  width: 95%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #393939;
+  font-size: 14px;
+}
+
+a:hover {
+  color: rgb(160, 160, 160);
+}
+
+img {
+  width: 100%;
+}
+
+.about img {
+  border-radius: 30%;
+}
+
+.menu img {
+  cursor: pointer;
+  border-radius: 30%;
+}
+
+.open-t {
+  text-align: center;
+  padding: 30px;
+}
+
+/* モーダルメニュー */
+
+#close {
+  display: none;
+}
+
+/* 戻るボタン */
+
+.return {
+  border: none;
+  background-color: #b7e9ff00;
+  position: fixed;
+  right: 30px;
+  bottom: 80px;
+  z-index: 100;
+  cursor: pointer;
+}
+
+/* モーダル */
+
+.menu a:hover {
+  opacity: 0.8;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgb(16, 16, 16, 0.8);
+  display: none;
+}
+
+.bigImg {
+  position: absolute;
+  width: 80%;
+  max-width: 800px;
+  top: 100px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.box {
+  width: 100%;
+  margin: 0 0 50px;
+  opacity: 0;
+  transition: 1.5s;
+  position: relative;
+  top: 50px;
+}
+
+.active {
+  opacity: 1;
+  top: 0;
+}
+
+/*↓ メディアクエリ: スマホ対応 ↓*/
+@media (max-width: 767px) {
+  .contact iframe {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .address{
+    text-align: center;
+  }
+}
+
