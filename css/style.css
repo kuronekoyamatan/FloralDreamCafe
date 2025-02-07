@@ -27,13 +27,13 @@ img {
   width: 100%;
 }
 
-.about img {
+.about img,.cafe-s {
   border-radius: 30%;
 }
 
 .menu img {
   cursor: pointer;
-  border-radius: 30%;
+  border-radius: 5%;
 }
 
 .open-t {
@@ -109,8 +109,7 @@ img {
     margin-right: auto;
   }
 
-  .address{
+  .address {
     text-align: center;
   }
 }
-
