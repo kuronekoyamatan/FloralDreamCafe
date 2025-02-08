@@ -36,9 +36,13 @@ img {
   border-radius: 5%;
 }
 
-.open-t {
+.info {
   text-align: center;
   padding: 30px;
+}
+
+.sns{
+  font-size: 12px;
 }
 
 /* モーダルメニュー */
@@ -99,6 +103,7 @@ img {
   top: 0;
 }
 
+
 /*↓ メディアクエリ: スマホ対応 ↓*/
 @media (max-width: 767px) {
   .contact iframe {
@@ -112,4 +117,5 @@ img {
   .address {
     text-align: center;
   }
+  
 }

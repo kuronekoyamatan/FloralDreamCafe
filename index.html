@@ -52,19 +52,13 @@
             <div id="close">
               <ol>
                 <li>
-                  <a href="#menu"
-                    >‣Drinks</a
-                  >
+                  <a href="#osusume">‣お勧め</a>
                 </li>
                 <li>
-                  <a href="#menu"
-                    >‣Sweets</a
-                  >
+                  <a href="#soup">‣スープ</a>
                 </li>
                 <li>
-                  <a href="#menu"
-                    >‣Food&nbsp;&nbsp;&nbsp;&nbsp;</a
-                  >
+                  <a href="#tmenu">‣定&nbsp;&nbsp;&nbsp;&nbsp;番</a>
                 </li>
               </ol>
             </div>
@@ -116,25 +110,34 @@
         </button>
       </div>
     </section>
-    <p class="open-t">営業時間 11：00～20：00</p>
 
-    <section class="about mt-3 box fadeIn">
-      <h3 class="text-center fw-bold fs-5 py-4" id="about">
+    <section class="info">
+      <p class="open-t">営業時間 11：00～20：00</p><br>
+      <a href="#"
+        ><img src="./img/cafeicon.png" style="width: 60px"
+      /></a>
+      <p class="sns">Cafestagram<br>
+        ハッシュタグ #FDC2025 投稿ありがとうございます<i
+          class="bi bi-flower3"
+        ></i>
+      </p>
+    </section>
+    <section class="about mt-1">
+      <h3 class="text-center fw-bold fs-1 py-2" id="about">
         Concept<i class="bi bi-flower3"></i>
       </h3>
       <div class="container text-start">
         <div class="row m-3 py-3">
-          <div class="col-md-6">
+          <div class="col-md-6 d-flex align-items-center">
             <img src="img/about.png" alt="concept" />
           </div>
-          <div class="col-md-6">
+          <div class="text col-md-6 d-flex align-items-center">
             <p class="mt-4 ms-3">
               可愛いが溢れる夢のような空間で、あなたをお迎えします<i
                 class="bi bi-flower3"
               ></i
               ><br />
               <br />
-
               このカフェでは、日常を忘れて、夢の世界でゆったりとした時間を過ごすことができます。<br /><br />
 
               テラスや広いソファ席、個室も完備しておりますので、ワンちゃんやお子様連れのお客様も、どうぞお気軽にお越しください。<br /><br />
@@ -143,7 +146,9 @@
               ></i>
               <br /><br />
 
-              こんなカフェに行ってみたいな、と思い制作しました。<br />なんちゃってカフェサイトです。<br /><br />
+              <small
+                >こんなカフェに行ってみたいな、と思い制作しました。<br />なんちゃってカフェサイトです。</small
+              ><br /><br />
             </p>
           </div>
         </div>
@@ -151,39 +156,91 @@
     </section>
 
     <section class="menu mt-3 box fadeIn">
-      <h3 class="text-center fw-bold fs-5 py-4" id="menu">
+      <h3 class="text-center fw-bold fs-1 py-2" id="menu">
         Menu<i class="bi bi-flower3"></i>
       </h3>
-      <div class="container text-center">
-        <div class="row m-3 py-3">
+      <div class="container text-center mt-3" id="osusume">
+        <p>
+          <i class="bi bi-flower3"></i>今月のおすすめ<i
+            class="bi bi-flower3"
+          ></i>
+        </p>
+        <div class="row m-3">
           <div class="menu col-md-4 mt-3">
-            <a href=""
-              ><img src="img/drinks.png" alt="drinks" /><br />
-              <p class="text-menu" id="drinks">Drinks</p></a
-            >
+            <a href=""><img src="img/drinks.png" alt="drinks" /></a><br />
+            <p class="text-menu" id="drinks">バタフライピーティー 460円</p>
           </div>
           <div class="menu col-md-4 mt-3">
-            <a href=""
-              ><img src="img/sweets.png" alt="sweets" /><br />
-              <p class="text-menu" id="sweets">Sweets</p></a
-            >
+            <a href=""><img src="img/sweets.png" alt="sweets" /></a><br />
+            <p class="text-menu" id="drinks">ハイビスカスパフェ 680円</p>
           </div>
           <div class="menu col-md-4 mt-3">
-            <a href=""
-              ><img src="img/food.png" alt="food" /><br />
-              <p class="text-menu" id="food">Food</p></a
-            >
+            <a href=""><img src="img/food.png" alt="food" /></a><br />
+
+            <p class="text-menu" id="drinks">サンシャインプレート 780円</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center mt-5" id="soup">
+        <p>
+          <i class="bi bi-flower3"></i>季節のスープ<i class="bi bi-flower3"></i>
+        </p>
+        <br />おかわり+100円
+        <div class="row m-3">
+          <div class="menu col-md-6 mt-3 d-flex align-items-center">
+            <div>
+              <a href=""><img src="img/soup.jpg" alt="soup" /></a><br />
+              <p class="text-menu" id="soup">大根とベーコンのスープ 480円</p>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex align-items-center text-start">
+            <p class="mt-4 ms-3">
+              冬の旬の大根は、寒さを感じるこの季節にぴったりな食材です。<br />
+              煮込むことで甘みが増し、ベーコンのコクと塩気が加わることで、シンプルながらも深みのある味わいに仕上がります。<br /><br />
+
+              おすすめポイント<br /><br />
+
+              <i class="bi bi-flower3"></i
+              >旬の大根が持つ甘みと、ベーコンの深い旨味が絶妙にマッチ<br />
+              <i class="bi bi-flower3"></i
+              >冬の寒さを吹き飛ばす、体の芯から温まる一杯<br />
+              <i class="bi bi-flower3"></i
+              >一日のスタートやランチにぴったりな、ほっとできる味わい<br />
+              <br />
+              温かいスープで心も体もほっこりと温まってください！
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center mt-5" id="tmenu">
+        <p>
+          <i class="bi bi-flower3"></i>定番メニュー<i class="bi bi-flower3"></i>
+        </p>
+        <div class="row m-3">
+          <div class="menu col-md-6 d-flex align-items-center">
+            <a href=""><img src="img/menu.jpg" alt="menu" /></a>
+          </div>
+          <div class="col-md-6 d-flex align-items-center">
+            <p class="mt-4 ms-3">
+              <a href=""><img src="img/f1.jpg" alt="menu" /></a>
+              <br />
+              <br />
+              <a href=""><img src="img/d1.jpg" alt="menu" /></a>
+              <br /><br />
+            </p>
           </div>
         </div>
       </div>
     </section>
 
     <div class="modal">
-      <div class="bigImg"><img src="" alt=""></div>
+      <div class="bigImg"><img src="" alt="" /></div>
     </div>
 
     <section class="contact mt-3 box fadeIn">
-      <h3 class="text-center fw-bold fs-5 py-4" id="access">
+      <h3 class="text-center fw-bold fs-1 py-2" id="access">
         Access<i class="bi bi-flower3"></i>
       </h3>
       <div class="container text-start">
@@ -210,16 +267,15 @@
               <p>TEL: 〇〇〇-〇〇〇〇-8787</p>
               <br />
               <p>駐車場 お店の裏に5台</p>
-
             </address>
-            <img  class="cafe-s" src="./img/cafe-s.jpg" alt="cafe">
+            <img class="cafe-s" src="./img/cafe-s.jpg" alt="cafe" />
           </div>
         </div>
       </div>
     </section>
 
     <section class="contact mt-3 box fadeIn">
-      <h3 class="text-center fw-bold fs-5 py-4" id="contact">
+      <h3 class="text-center fw-bold fs-1 py-4" id="contact">
         Contact<i class="bi bi-flower3"></i>
       </h3>
 
@@ -276,7 +332,8 @@
       <hr />
       <small
         ><p class="text-center text-md-end">
-          Copyright(C) 2025 架空サイト Floral Dream Café お問い合わせ: yltm39890@gmail.com
+          Copyright(C) 2025 架空サイト Floral Dream Café お問い合わせ:
+          yltm39890@gmail.com
         </p></small
       >
     </footer>
